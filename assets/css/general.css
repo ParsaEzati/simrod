@@ -1,0 +1,61 @@
+@font-face {
+    font-family: IranSans;
+    src: url('../font/IranSans.ttf');
+}
+
+:root {
+    --ff-primary: ;
+
+    --txt-clr-primary: #000;
+    --txt-clr-secondry: #404040;
+
+    --fs-secondry: 1.5rem;
+    --fs-nav: 1.25rem;
+    --clr-active: #FFA600;
+
+}
+
+* {
+    font-family: IranSans;
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-clr-primary);
+    transition: .2s;
+}
+
+a:hover {
+    color: var(--clr-active);
+}
+
+.container {
+    --max-width: 1400px;
+    --container-padding: 1rem;
+
+    width: min(var(--max-width), 100% - (var(--container-padding) * 2));
+    margin-inline: auto;
+}
+
+.button {
+    outline: none;
+    background: #fff;
+    border: 3px solid black;
+    cursor: pointer;
+    height: 45px;
+    padding: 8px 14px;
+}
+
+.primary-red-button{
+    border-color: #E1251B;
+}
+
+.primary-yellow-button{
+    border-color: var(--clr-active);
+}
+
+.secondry-button{
+    background: #C9C9C9;
+    border: none;
+    width: 45px;
+}
