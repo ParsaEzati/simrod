@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>simrod</title>
-
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/general.css">
         <link rel="stylesheet" href="assets/css/main.css">
@@ -12,90 +12,239 @@
     <body>
 
         <header>
-            <div class="container">
-                <nav>
-                    <img src="assets/img/logo.png" alt="logo" class="logo">
-                    <ul class="heading-nav" role="list">
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Archive</a></li>
-                        <li><a href="#">Order</a></li>
-                    </ul>
-
-                    <div class="buttons">
-                        <button class="button secondry-button">
-                            <!-- search icon will be here -->
-                        </button>
-
-                        <div class="page-buttons">
-                            <button class="button primary-yellow-button">Contact
-                                Us</button>
-                            <button class="button primary-red-button">Orginality</button>
-                        </div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Archive</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Order</a>
+                        </li>
+                      </ul>
+                      <div class="d-flex mt-5">
+                        <svg class="mr-3" id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+                            <defs>
+                                <clipPath id="clip-path">
+                                <rect id="Rectangle_8" data-name="Rectangle 8" width="45" height="45" fill="#c9c9c9"/>
+                                </clipPath>
+                            </defs>
+                            <g id="Gro  up_8" data-name="Group 8" clip-path="url(#clip-path)">
+                                <path id="Path_36" data-name="Path 36" d="M148.024,141.9a6.137,6.137,0,1,1-6.137-6.136,6.107,6.107,0,0,1,6.137,6.136" transform="translate(-121.432 -121.441)" fill="#c9c9c9"/>
+                                <path id="Path_37" data-name="Path 37" d="M0,0V45H31.729L45,34.1V0ZM31.833,34.773l-2.585-2.5-3.3-3.188a10.031,10.031,0,0,1-5.5,1.6A10.227,10.227,0,1,1,30.682,20.455a10.057,10.057,0,0,1-1.791,5.752l3.534,3.456,2.218,2.17Z" fill="#c9c9c9"/>
+                                <path id="Path_38" data-name="Path 38" d="M148.024,141.9a6.137,6.137,0,1,1-6.137-6.136,6.107,6.107,0,0,1,6.137,6.136" transform="translate(-121.432 -121.441)" fill="#c9c9c9"/>
+                                <path id="Path_39" data-name="Path 39" d="M148.024,141.9a6.137,6.137,0,1,1-6.137-6.136,6.107,6.107,0,0,1,6.137,6.136" transform="translate(-121.432 -121.441)" fill="#c9c9c9"/>
+                            </g>
+                        </svg>
+                        <div class="d-flex flex-column">
+                            <a class="mb-2" href="">
+                                <svg id="Component_8_1" data-name="Component 8 – 1" xmlns="http://www.w3.org/2000/svg" width="120" height="45" viewBox="0 0 120 45">
+                                    <g id="Path_33" data-name="Path 33" transform="translate(-4.297 0)" fill="none">
+                                      <path d="M4.3,0V45H111.082L124.3,28.9V0Z" stroke="none"/>
+                                      <path d="M 6.296875 1.999710083007812 L 6.296875 42.99971008300781 L 110.1362762451172 42.99971008300781 L 122.296875 28.18647956848145 L 122.296875 1.999710083007812 L 6.296875 1.999710083007812 M 4.296875 -0.0002899169921875 L 124.296875 -0.0002899169921875 L 124.296875 28.90225982666016 L 111.0820236206055 44.99971008300781 L 4.296875 44.99971008300781 L 4.296875 -0.0002899169921875 Z" stroke="none" fill="#ffa600"/>
+                                    </g>
+                                    <text id="Contact_Us" data-name="Contact Us" transform="translate(11 29)" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Contact Us</tspan></text>
+                                </svg>                                  
+                            </a>
+                            <a href="">
+                                <svg id="Component_8_2" data-name="Component 8 – 2" xmlns="http://www.w3.org/2000/svg" width="120" height="45" viewBox="0 0 120 45">
+                                    <g id="Path_33" data-name="Path 33" transform="translate(-4.297 0)" fill="none">
+                                      <path d="M4.3,0V45H111.082L124.3,28.9V0Z" stroke="none"/>
+                                      <path d="M 6.296875 1.999710083007812 L 6.296875 42.99971008300781 L 110.1362762451172 42.99971008300781 L 122.296875 28.18647956848145 L 122.296875 1.999710083007812 L 6.296875 1.999710083007812 M 4.296875 -0.0002899169921875 L 124.296875 -0.0002899169921875 L 124.296875 28.90225982666016 L 111.0820236206055 44.99971008300781 L 4.296875 44.99971008300781 L 4.296875 -0.0002899169921875 Z" stroke="none" fill="#e1251b"/>
+                                    </g>
+                                    <text id="Originality" transform="translate(14 29)" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Originality</tspan></text>
+                                </svg>                                  
+                            </a>
+                          </div>
+                      </div>
                     </div>
-                </nav>
+                  </nav>
             </div>
         </header>
 
         <section id="main">
-            <div class="hero">
-                <div class="container">
-                    <div class="slideshow-container">
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">1 / 3</div>
-                            <img src="assets/img/hero.png" style="width:100%">
-                            <div class="text">Caption Text</div>
+            <div class="container">
+                <div class="slider row">
+                    <div id="carouselExampleIndicators" class="carousel slide col-xl-6 col-lg-12" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1>Title one</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea blanditiis sapiente quam tempora, sed consectetur provident deleniti beatae, officia corporis explicabo optio?</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>Title two</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea blanditiis sapiente quam tempora, sed consectetur provident deleniti beatae, officia corporis explicabo optio?</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>Title three</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea blanditiis sapiente quam tempora, sed consectetur provident deleniti beatae, officia corporis explicabo optio?</p>
+                            </div>
                         </div>
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 3</div>
-                            <img src="assets/img/hero.png" style="width:100%">
-                            <div class="text">Caption Two</div>
-                        </div>
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 3</div>
-                            <img src="assets/img/hero.png"
-                                style="width:100%">
-                            <div class="text">Caption Three</div>
-                        </div>
-
                     </div>
-                    <br>
-
-                    <div style="text-align:center">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                    </div>
+                    <img src="assets/img/hero.png" class="col-xl-6 col-lg-12" alt="">
                 </div>
             </div>
 
-        </section>
+            <div class="companies">
+                    <div class="container-fluid d-flex">
+                        <img src="assets/img/companies/Component 2 – 1.png" alt="" class="pic">
+                        <img src="assets/img/companies/Group 20.png" alt="" class="pic">
+                        <img src="assets/img/companies/Group 24.png" alt="" class="pic">
+                        <img src="assets/img/companies/Group 28.png" alt=""class="pic">
+                        <img src="assets/img/companies/Image 3.png" alt="" class="pic">
+                    </div>
+                </div>
 
-        <script>
-            let slideIndex = 0;
-            showSlides();
+                <div class="last-posts">
+                    <div class="heading">
+                        <h2>ALUMINIUM PRICE</h2>
+                        <p>2,533.65 +6.65 <span>(+0.26%)</span></p>
+                        <p class="date">11:00:39 AMMI Indication</p>
+                    </div>
 
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}    
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";  
-                dots[slideIndex-1].className += " active";
-                setTimeout(showSlides, 7000); // Change image every 7 seconds
-            }
-        </script>
+                    <div class="container">
+                        <div class="posts row">
 
-    </body>
-</html>
+                            <div class="post col-xl-5 col-lg-5">
+                                <img src="assets/img/archives/archive 1.png"
+                                    alt="archive one">
+                                <h3>Sample Archive 1</h3>
+                                <p>Consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna
+                                    aliqua</p>
+                            </div>
+
+                            <div class="post col-xl-5 col-lg-5">
+                                <img src="assets/img/archives/archive 2.png"
+                                    alt="archive one">
+                                <h3>Sample Archive 2</h3>
+                                <p>Consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna
+                                    aliqua</p>
+                            </div>
+
+                            <div class="post col-xl-5 col-lg-5">
+                                <img src="assets/img/archives/archive 3.png"
+                                    alt="archive one">
+                                <h3>Sample Archive 3</h3>
+                                <p>Consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna
+                                    aliqua</p>
+                            </div>
+
+                            <div class="post col-xl-5 col-lg-5">
+                                <img src="assets/img/archives/archive 4.png"
+                                    alt="archive one">
+                                <h3>Sample Archive 4</h3>
+                                <p>Consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna
+                                    aliqua</p>
+                            </div>
+                        </div>
+
+                        <div class="button-more">
+                            <a href="" class="more">
+                                <svg id="Component_16_1" data-name="Component 16 – 1" xmlns="http://www.w3.org/2000/svg" width="199.106" height="81.934" viewBox="0 0 199.106 81.934">
+                                    <path id="Path_72" data-name="Path 72" d="M.5,300.066V382H163.563l36.043-29.591V300.066Z" transform="translate(-0.5 -300.066)" fill="#ffa600"/>
+                                    <text id="MORE" transform="translate(54.259 48.467)" fill="#fff" font-size="30" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">MORE</tspan></text>
+                                </svg>                              
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <footer>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="left col-xl-8 col-md-12">
+                                <div class="first-col">
+                                    <h4>ABOUT SIMROD</h4>
+
+                                    <ul rolte="list">
+                                        <li class="mt0"><a href="#">Certificates</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Photos</a></li>
+                                    </ul>
+
+                                    <h4>CATAGLOGS</h4>
+
+                                    <div class="copyright">
+                                        <p>Сopyright © All rights are secured 2022
+                                            SIMROD SAMA CO.</p>
+                                    </div>
+                                </div>
+
+                                <div class="second-col">
+                                    <h4>PRODUCTS</h4>
+
+                                    <ul>
+                                        <li><a href="#">Group 1</a></li>
+                                        <li><a href="#">Sameple 1</a></li>
+                                        <li><a href="#">Sameple 2</a></li>
+                                    </ul>
+
+                                    <ul>
+                                        <li>Group 2</li>
+                                        <li><a href="#">Sameple 1</a></li>
+                                        <li><a href="#">Sameple 2</a></li>
+                                        <li><a href="#">Sameple 3</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="right col-xl-4 col-md-12 pl-xl-5">
+                                <div>
+                                    <h4>SERVICES</h4>
+
+                                    <ul>
+                                        <li><a href="#">Group 1</a></li>
+                                        <li><a href="#">Sameple 1</a></li>
+                                        <li><a href="#">Sameple 2</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="contacts">
+                                        <h4>CONTACTS</h4>
+
+                                        <p>
+                                            Simrod Complex, No. 8
+                                            South Ferdousi St., Tehran
+                                        </p>
+                                    </div>
+                                    <div class="social-media">
+                                        <ul>
+                                            <li class="mr-2"><a href="#"><img src="assets/img/social-media/instagram.svg" alt=""></a></li>
+                                            <li class="mr-2"><a href="#"><img src="assets/img/social-media/whatsapp.svg" alt=""></a></li>
+                                            <li class="mr-2"><a href="#"><img src="assets/img/social-media/phone.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <script src="assets/js/slider.js"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            </body>
+        </html>
