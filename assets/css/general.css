@@ -62,7 +62,7 @@ a:hover {
 
 /* header -------------------------- */
 header {
-    margin-bottom: 95px;
+    margin-bottom: 70px;
 }
 
 header nav {
@@ -70,12 +70,13 @@ header nav {
 }
 
 header nav ul li {
-    margin: 0 20px
+    margin: 0 20px;
+    font-size: 1rem;
 }
 /* router ----------------------------- */
 .route .row{
     color: #C9C9C9;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .route .row span{
@@ -93,12 +94,13 @@ header nav ul li {
 
 .post h3 {
     padding: 35px 0 0 30px;
-    font-size: 3rem;
+    font-size: 1.75rem;
+    padding: 10px 20px 0 20px;
 }
 
 .post p {
-    padding: 0 0 50px 30px;
-    font-size: 1.5rem;
+    padding: 0 20px;
+    font-size: 1rem;
     color: #404040;
 }
 
@@ -123,13 +125,13 @@ footer .container {
 }
 
 footer .container h4 {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
 }
 
 footer .container a,
 p,
 li {
-    font-size: 1.5rem;
+    font-size: .85rem;
     color: #404040;
 }
 
