@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>simrod</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/general.css">
-    <link rel="stylesheet" href="assets/css/archives.css">
+    <link rel="stylesheet" href="assets/css/order.css">
 </head>
 <body>
 
@@ -97,53 +106,59 @@
 </header>
 
 <div class="route container">
-    <div class="row"><span>products</span> | <span>group one</span></div>
+    <div class="row"><span>order</span></div>
 </div>
 
-<section id="main">
-
-    <div class="posts container">
-        <div class="row ">
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 1.png"
-                     alt="archive one">
-                <h3>Sample Archive 1</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 2.png"
-                     alt="archive one">
-                <h3>Sample Archive 2</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 3.png"
-                     alt="archive one">
-                <h3>Sample Archive 3</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 4.png"
-                     alt="archive one">
-                <h3>Sample Archive 4</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-        </div>
+<section id="main" class="container">
+    <div class="row">
+        <h1>Sample Title</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non, perspiciatis veniam architecto iure deleniti omnis. Ex deleniti ut illo rerum vel omnis minus repellendus sed, nihil architecto tenetur laboriosam!
+            Totam nisi pariatur eum voluptate odit a quidem. Minus, impedit? Laborum, dolorem iure! Voluptatum, magni deserunt consectetur perspiciatis modi, numquam ab nostrum nisi error aliquam omnis id. Mollitia, nobis ullam.
+            Dolore sint impedit, tempora nulla at id ratione omnis tempore distinctio repellendus quasi natus debitis, praesentium possimus! Accusantium quibusdam commodi illum adipisci, vitae sunt dolore blanditiis eos culpa, quos labore.
+        </p>
     </div>
 
+    <div class="order row">
+        <form class="row w-100">
+            <div class="col-xl-6">
+                <div>
+                    <label for="name">* name</label>
+                    <input type="text" name="name" id="">
+                </div>
+                <div>
+                    <label for="phoneNumber">* Tel Number</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber">   
+                </div>
+                <div>
+                    <label for="productname">* Product Name / Code</label>
+                    <select name="productname" id="productname">
+                        <option value="">- - -</option>
+                        <option value="">prodcut two</option>
+                        <option value="">product one-</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="abount">* Order Amount</label>
+                    <input type="text" name="abount" id="abount">   
+                </div>  
+            </div>
+
+            <div class="col-xl-6 d-flex flex-column">
+                <label for="orderDescription"></label>
+                <textarea name="orderDescription" id="orderDescription" cols="30" rows="10"></textarea>
+
+                <button type="submit">
+                    <svg id="Component_32_1" data-name="Component 32 – 1" xmlns="http://www.w3.org/2000/svg" width="149.333" height="56" viewBox="0 0 149.333 56">
+                        <path id="Path_33" data-name="Path 33" d="M4.3,0V56H137.185L153.63,35.967V0Z" transform="translate(-4.297 0)" fill="#ffa600"/>
+                        <text id="ORDER" transform="translate(37 34)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">ORDER</tspan></text>
+                      </svg>                      
+                </button>
+            </div>
+        </form>
+    </div>
 </section>
+
 
 <footer>
     <div class="container mt-5">
@@ -219,6 +234,7 @@
     </div>
 </footer>
 
+<script src="assets/js/collaps.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

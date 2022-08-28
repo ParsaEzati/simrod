@@ -1,0 +1,27 @@
+.order form{
+    margin-bottom: 50px;
+}
+
+.order form input, select, textarea{
+    border: 2px solid #EAEAEA ;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+}
+
+.order form div > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.order form button{
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+}
+
+.order form button svg{
+    height: 56px;
+}

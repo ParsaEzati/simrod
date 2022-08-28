@@ -1,9 +1,7 @@
-.route .row{
-    padding: 0 30px;
-    color: #C9C9C9;
+.post{
+    background: #EAEAEA;
 }
 
-.route .row span{
-    margin: 0 10px;
-    color: #000;
+.route .row{
+    padding: 0 30px;
 }

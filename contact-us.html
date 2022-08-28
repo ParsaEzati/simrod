@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/general.css">
-    <link rel="stylesheet" href="assets/css/archives.css">
+    <link rel="stylesheet" href="assets/css/about-us.css">
 </head>
 <body>
 
@@ -97,50 +97,80 @@
 </header>
 
 <div class="route container">
-    <div class="row"><span>products</span> | <span>group one</span></div>
+    <div class="row"><span>contact us</span></div>
 </div>
 
-<section id="main">
+<section id="main" class="container">
+    <!-- 
+        title: 45
+        item: 20
+        itemColor: #404040
+     -->
 
-    <div class="posts container">
-        <div class="row ">
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 1.png"
-                     alt="archive one">
-                <h3>Sample Archive 1</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
+    <div class="address row">
+        <div class="text-location col-xl-6 d-flex flex-column">
+            <div class="office">
+                <h1>Head Office</h1>
+                <ul>
+                    <li>Addres: Simrod Complex, No. 8. South Ferdousi St.. Tehran .Iran / Postal Code: 12344-78785</li>
+                    <li>Tel: +98 21 66 76 0000</li>
+                    <li>Email: Into@simrodsama.com</li>
+                </ul>
             </div>
 
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 2.png"
-                     alt="archive one">
-                <h3>Sample Archive 2</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 3.png"
-                     alt="archive one">
-                <h3>Sample Archive 3</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
-            </div>
-
-            <div class="post col-xl-5 col-lg-5">
-                <img src="assets/img/archives/archive 4.png"
-                     alt="archive one">
-                <h3>Sample Archive 4</h3>
-                <p>Consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua</p>
+            <div class="factory">
+                <h2>Factory</h2>
+                <ul>
+                    <li>Addres: Simrod Complex, No. 8. South Ferdousi St.. Tehran .Iran / Postal Code: 12344-78785</li>
+                    <li>Tel: +98 21 66 76 0000</li>
+                </ul>
             </div>
         </div>
+
+        <div class="location col-xl-6">
+            <img src="assets/img/location.png" class="w-100 rounded" alt="location">
+        </div>
+    </div>
+
+    <div class="career row">
+        <div class="title">
+            <h1>Career / Other topics</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos hic voluptate qui ullam accusantium officiis, velit soluta, illum dolorum, itaque et esse odit rem impedit similique ad expedita ea sunt.
+            Quo et sit consequatur vel recusandae, blanditiis quisquam maxime, excepturi porro facere sunt natus repudiandae molestiae culpa voluptatibus ratione? Quam rerum voluptate illum est quaerat aspernatur sapiente. Nesciunt, hic consectetur!
+            Omnis nihil quam debitis nam, fugit quidem numquam minus corporis culpa dignissimos accusamus enim, impedit quo reiciendis nesciunt deleniti reprehenderit. Distinctio culpa minima dolorem quidem ipsum blanditiis incidunt adipisci velit.</p>
+        </div>
+
+        <form class="row w-100">
+            <div class="col-xl-6">
+                <div>
+                    <label for="name">* Name</label>
+                    <input type="text" name="name" id="">
+                </div>
+
+                <div>
+                    <label for="phoneNumber">* Email</label>
+                    <input type="email" name="phoneNumber" id="phoneNumber">   
+                </div>
+
+                <div>
+                    <label for="abount">* Topic</label>
+                    <input type="text" name="abount" id="abount">   
+                </div>  
+            </div>
+
+            <div class="col-xl-6 d-flex flex-column">
+                <label for="orderDescription">* Message</label>
+                <textarea name="orderDescription" id="orderDescription" cols="30" rows="10"></textarea>
+
+                <button type="submit">
+                    <svg id="Component_32_1" data-name="Component 32 – 1" xmlns="http://www.w3.org/2000/svg" width="149.333" height="56" viewBox="0 0 149.333 56">
+                        <path id="Path_33" data-name="Path 33" d="M4.3,0V56H137.185L153.63,35.967V0Z" transform="translate(-4.297 0)" fill="#ffa600"/>
+                        <text id="ORDER" transform="translate(37 34)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">ORDER</tspan></text>
+                        </svg>                      
+                </button>
+            </div>
+        </form>
+        
     </div>
 
 </section>

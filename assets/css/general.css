@@ -72,6 +72,16 @@ header nav {
 header nav ul li {
     margin: 0 20px
 }
+/* router ----------------------------- */
+.route .row{
+    color: #C9C9C9;
+    margin-bottom: 60px;
+}
+
+.route .row span{
+    margin: 0 10px;
+    color: #404040;
+}
 
 /* post ------------------------------- */
 .post {
@@ -89,6 +99,7 @@ header nav ul li {
 .post p {
     padding: 0 0 50px 30px;
     font-size: 1.5rem;
+    color: #404040;
 }
 
 /* footer ----------------------------------- */

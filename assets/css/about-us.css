@@ -1,0 +1,53 @@
+.address ul{
+    list-style-image: url('../img/list-icon.png');
+}
+
+.address ul li{
+    font-size: 1.25rem;
+}
+
+.address h1, h2{
+    font-size: 3rem;
+}
+
+.address .factory{
+    margin-top: 30px;
+}
+
+
+.address .factory ul{
+    list-style-image: url('../img/list-icon-gray.png');
+}
+
+.address .factory h2,
+.address .factory li{
+    color: #c9c9c9 !important;
+}
+
+.career{
+    margin-bottom: 70px;
+}
+
+.career form{
+    margin-top: 30px;
+}
+
+.career form div div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.career form input, textarea{
+    outline: none;
+    background: none;
+    border: 2px solid #EAEAEA;
+    padding: 10px
+}
+
+.career form button{
+    background: none;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+}

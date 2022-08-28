@@ -1,0 +1,62 @@
+.post{
+    background: #EAEAEA;
+}
+.product .row .details h1{
+    font-size: 3rem;
+}
+
+.product .row .details{
+    font-size: 1rem;
+}
+
+.product .row .details .category{
+    color: #C9C9C9
+}
+
+.product .row .details .description,
+.product .row .details .category,
+.product .row .details .features{
+    color: #404040;
+}
+
+.product .row .details p span {
+    font-weight: bold;
+}
+.product .row .seprator{
+    border-bottom: 3px solid #FFA600;
+    margin-bottom: 20px;
+}
+.product .row .buttons > * {
+    cursor: pointer;
+}
+.product .row .buttons svg{
+    width: 100%;
+}
+.product .row .detail-box{
+    padding: 0 15px;
+}
+
+.product .row .detail-box .box{
+    background: #EAEAEA;
+    padding: 20px;
+    color: #707070;
+    display: none;
+}
+
+.product .row .detail-box .active{
+    display: block;
+}
+
+.product .row .detail-box .box > * {
+    font-size: 1.25rem;
+}
+
+.post h3{
+    font-size: 1.75rem;
+    padding: 10px 20px 0 20px;
+}
+
+.post p{
+    font-size: 1rem;
+    padding: 0 20px;
+}
