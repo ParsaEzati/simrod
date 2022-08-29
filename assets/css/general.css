@@ -108,7 +108,7 @@ header nav ul li {
 
 footer {
     position: relative;
-    background-image: url('../img/footer-background.svg');
+    background: #EAEAEA;
     background-position: center;
     background-position-x: right;
     background-repeat: no-repeat;
